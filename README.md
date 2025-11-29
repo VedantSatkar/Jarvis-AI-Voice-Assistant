@@ -1,64 +1,65 @@
-Here is a **fully ready, clean, polished README.md** for your **Jarvis-AI-Voice-Assistant** GitHub repo.
-Just **copy & paste directly into VS Code** → `README.md`.
+# 🤖 Jarvis AI Voice Assistant
+
+A fully functional **Python-based Voice Assistant** capable of listening to user commands, performing system tasks, searching the internet, opening applications, and responding with natural speech.
+Ideal for automation, productivity, and AI experimentation.
+
+
+## 🚀 Features
+
+* 🎙️ **Real-time voice command recognition**
+* 🔊 **Text-to-speech responses** using pyttsx3
+* 🌐 **Opens websites** (YouTube, Google, etc.)
+* 🖥️ **Launches apps** (Calculator, Notepad, etc.)
+* 🕒 **Tells time & date**
+* 🧠 **Custom commands support**
+* 🗂️ Lightweight, fast, and beginner-friendly
+* 🛠️ Easy to modify & extend
 
 ---
 
-# **Jarvis-AI-Voice-Assistant**
+## 🖼️ Output Screenshot
 
-Jarvis is a simple yet powerful **AI-based voice assistant** built using Python.
-It listens to your commands, processes them, and performs actions like opening apps, searching the web, giving time/date updates, and more — completely hands-free.
+> Replace this image with your actual screenshot.
+> Make a folder named **assets** → place your screenshot → rename it to **output.png**
 
----
-
-## 🚀 **Features**
-
-* 🎙️ Voice command detection
-* 🔊 Text-to-speech responses
-* 🌐 Opens websites (YouTube, Google, etc.)
-* 🖥️ Opens applications
-* 🕒 Tells time & date
-* 📁 Can be extended with custom commands
-* ⚙️ Beginner-friendly and fully customizable
-
----
-
-## 📸 **Output Screenshot**
-
-> Replace this section with your actual screenshot (after running the project).
-> Example placeholder:
-
-```
-[ Add your screenshot here — drag & drop into README on GitHub ]
+```markdown
+<p align="center">
+  <img src="assets/output.png" alt="Jarvis AI Voice Assistant Screenshot" width="700">
+</p>
 ```
 
 ---
 
-## 🛠️ **Tech Stack**
+## 🛠️ Tech Stack
 
-* **Python 3.x**
-* **SpeechRecognition**
-* **PyAudio**
-* **pyttsx3**
-* Optional: **webbrowser**, **datetime**, etc.
+* **Programming Language:** Python
+* **Speech Recognition:** SpeechRecognition
+* **Voice Output:** pyttsx3
+* **Audio Input:** PyAudio
+* **Utilities:** datetime, webbrowser, os
 
 ---
 
-## 📥 **Installation**
+## 📦 Installation & Setup
 
-Clone the repository:
+Follow these steps to run Jarvis on your system:
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/VedantSatkar/Jarvis-AI-Voice-Assistant.git
 cd Jarvis-AI-Voice-Assistant
 ```
 
-Install dependencies:
+### 2. Install Dependencies
+
+If you have `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-If you don't have a `requirements.txt`, install manually:
+Or install manually:
 
 ```bash
 pip install speechrecognition pyttsx3 pyaudio
@@ -66,58 +67,73 @@ pip install speechrecognition pyttsx3 pyaudio
 
 ---
 
-## ▶️ **How to Run**
+## ▶️ Usage
+
+Run the assistant:
 
 ```bash
 python jarvis.py
 ```
 
-Once launched, simply **speak commands** like:
+Then speak:
 
-* “Jarvis, open YouTube”
+* “Open YouTube”
 * “What’s the time?”
+* “Search Python tutorial”
 * “Open Notepad”
-* “Search for Python tutorials”
-* “Goodbye”
+* “Exit”
 
 ---
 
-## 📁 **Project Structure**
+## 📁 Project Structure
 
 ```
 Jarvis-AI-Voice-Assistant/
 │
-├── jarvis.py               # Main script
-├── requirements.txt        # Dependencies (optional)
-├── README.md               # Project documentation
-└── /assets                 # (Optional) screenshots or resources
+├── jarvis.py
+├── README.md
+├── requirements.txt  (optional)
+└── assets/
+      └── output.png  (screenshot)
 ```
 
 ---
 
-## 🧩 **Add Your Own Commands**
+## 💡 Add Your Own Commands
 
-Inside your `jarvis.py`, you can add functions like:
+You can extend Jarvis easily.
+Example inside `jarvis.py`:
 
 ```python
 if "open calculator" in command:
     os.system("calc.exe")
 ```
 
-Just duplicate & modify to add unlimited new skills.
+Add as many commands as you want.
 
 ---
 
-## 🤝 **Contributing**
+## 🤝 Contributing
 
 Contributions are welcome!
-Feel free to **fork the project**, create improvements, and submit a **pull request**.
+Feel free to:
+
+1. **Fork** the repo
+2. Add features / fix bugs
+3. **Submit a pull request**
 
 ---
 
-## 📜 **License**
+## 📬 Contact
+
+**Developer:** Vedant Satkar
+📧 Email: *add your email here*
+🔗 GitHub: [https://github.com/VedantSatkar](https://github.com/VedantSatkar)
+📱 LinkedIn: *your link here*
+
+---
+
+## 📜 License
 
 This project is licensed under the **MIT License**.
-You are free to use, modify, and distribute it.
-
----
+You may use, modify, and distribute it freely.

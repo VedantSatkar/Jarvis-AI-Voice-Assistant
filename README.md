@@ -20,6 +20,9 @@ Ideal for automation, productivity, and AI experimentation.
 ## 🖼️ Output Screenshot
 Here’s a preview of the working
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1f189737-559d-43a2-8b7e-54ceea973620" />
+
+
 ```
 
 ---
